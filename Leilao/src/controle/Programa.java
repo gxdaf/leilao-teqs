@@ -45,7 +45,6 @@ public class Programa {
 		            }
 		        }
 				ControleLance.registrarLance(usuario, leilao);
-				System.out.println(leilao.getLances().get(0).getValor());
 				break;
 			case 3:
 			    for(Lance lance : leilao.getLances()){
